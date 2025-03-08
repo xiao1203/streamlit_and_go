@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package streamlit_and_go;
 
-option go_package = "./";
+option go_package = "github.com/xiao1203/streamlit_and_go/go_server/hello";
 
 service Greeter {
   // クライアントからのリクエストに対して挨拶を返す

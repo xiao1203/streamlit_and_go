@@ -1,0 +1,12 @@
+services:
+  go_server:
+    build: ./go_server
+    ports:
+      - '50051:50051'
+
+  streamlit_client:
+    build: ./streamlit_client
+    ports:
+      - '8501:8501'
+    depends_on:
+      - go_server

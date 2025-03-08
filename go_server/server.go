@@ -6,7 +6,7 @@ import (
 	"log"
 	"net"
 
-	pb "../common/streamlit_and_go" // 生成されたGoコードのパッケージパスに合わせて変更
+	pb "github.com/xiao1203/streamlit_and_go/hello" // 生成されたGoコードのパッケージパスに合わせて変更
 
 	"google.golang.org/grpc"
 )
